@@ -1,0 +1,14 @@
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+
+# Local variable files
+*.tfvars
+!terraform.tfvars.example
+
+# Terraform working directory
+.terraform/
+
+# Crash logs
+crash.log
+

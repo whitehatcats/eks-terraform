@@ -1,0 +1,11 @@
+aws_region            = "eu-central-1"
+project               = "eks-portfolio"
+cluster_name          = "eks-portfolio"
+
+node_instance_types    = ["t3.small"]
+node_desired_capacity  = 2
+node_min_size          = 1
+node_max_size          = 3
+
+enable_nat_gateway = true
+
