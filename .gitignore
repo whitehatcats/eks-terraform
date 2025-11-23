@@ -1,14 +1,15 @@
+# Terraform working directory
+.terraform/
+
 # Terraform state
 terraform.tfstate
 terraform.tfstate.backup
 
-# Local variable files
-*.tfvars
-!terraform.tfvars.example
+# Lock file
+.terraform.lock.hcl
 
-# Terraform working directory
-.terraform/
+# Plans you generated
+destroy-plan.txt
 
-# Crash logs
-crash.log
-
+# Local tfvars (you might create later)
+terraform.tfvars

@@ -25,7 +25,7 @@ variable "vpc_cidr" {
 variable "azs" {
   description = "Availability zones to use."
   type        = list(string)
-  default     = [
+  default = [
     "eu-central-1a",
     "eu-central-1b",
     "eu-central-1c",
@@ -35,7 +35,7 @@ variable "azs" {
 variable "public_subnets" {
   description = "Public subnet CIDRs."
   type        = list(string)
-  default     = [
+  default = [
     "10.0.0.0/24",
     "10.0.1.0/24",
     "10.0.2.0/24",
@@ -45,7 +45,7 @@ variable "public_subnets" {
 variable "private_subnets" {
   description = "Private subnet CIDRs."
   type        = list(string)
-  default     = [
+  default = [
     "10.0.10.0/24",
     "10.0.11.0/24",
     "10.0.12.0/24",
